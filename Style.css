@@ -1,0 +1,344 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: Black;
+}
+
+.header{
+	padding-top: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header a{
+	color: white;
+	font-family: outrun future;
+	font-size: 14px;
+	height: 50px;
+	padding: 0 30px;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+}
+
+.header a:hover {
+	color: white;
+	font-family: outrun future;
+	font-size: 14px;
+	height: 50px;
+	padding: 0 30px;
+	text-decoration: line-through;
+}
+
+.container{
+	width: 300px;
+	margin: auto;
+}
+
+.section1{
+	height: 600px;
+	background: no-repeat url("Content/Picture/Section1.png");
+	background-size: 100%;
+	background-position: center - 100;
+	object-fit: fill;
+	object-position: top;
+}
+
+.menu{
+	font-size: 10px;
+	margin-left: -60;
+	width: 500px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.title{
+	height: 180px;
+	width: 500;
+	margin-top: 100;
+	margin-left: -80;
+	background: no-repeat url("Content/Picture/Barmy.png");
+	background-size: 100%;
+	background-position: top;
+	object-fit: fill;
+	object-position: top;
+}
+
+.grafiti{
+	height: 30px;
+	width: 300;
+	margin: auto;
+	background: no-repeat url("Content/Picture/Grafity.png");
+	background-size: 100%;
+	background-position: top;
+	object-fit: fill;
+	object-position: top;
+}
+
+.button{
+
+	color:black;
+	font-family:  outrun future;
+	text-align: center;
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 30px;
+	width: 150;
+	margin-top: 50;
+	margin-left: 70;
+	background: no-repeat url("Content/Picture/Button.png");
+	background-size: 100%;
+	background-position: top;
+	object-fit: fill;
+	object-position: top;
+}
+
+.button a{
+	color: black;
+	font-family: outrun future;
+	font-size: 11px;
+	height: 50px;
+	padding: 0 30px;
+	align-items: center;
+	text-decoration: none;
+}
+
+.button a:hover {
+	color: black;
+	font-family: outrun future;
+	font-size: 12px;
+	height: 50px;
+	padding: 0 30px;
+	text-decoration: line-through;
+}
+
+.section2{	
+	height: 661px; 
+	object-position: left;
+	background-color: #000000;
+	position: relative;
+	display: flex;
+}
+
+.fade{
+	margin-top: 0px;
+}
+
+.imgs{
+	width: 660px;
+	height: 500PX;
+}
+
+.image0{
+	position: absolute;
+	margin-top: -60px;
+}
+
+
+
+.image1{
+	position: absolute;
+	padding-left: 200px;
+	padding-bottom: 300px;
+}
+
+.image2{
+	position: absolute;
+	margin-top: 220px;
+	margin-left: 100px;
+}
+
+.text{
+	width: 500px;
+	height: 500px;
+	display: flex;
+	margin-left: 200px;
+	margin-top: 100px;
+	font-family:  outrun future;
+}
+
+.section3{
+	height: 741px;
+	object-position: top;
+	background-size: 100%;
+	background: no-repeat url("Content/Picture/Мужик.png");
+	background-position: center;
+	object-fit: fill;
+}
+
+.S3text{
+	width: 500px;
+	height: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-family:  outrun future;
+	margin-left: 500px;
+}
+
+.S3text:hover{
+	animation: scala 2s infinite;
+}
+
+
+.slider{
+	height: 423px;
+	width: 1000px;
+	display: flex;
+	margin: auto;
+	padding-top: 130px;
+}
+
+.slider img:hover  {
+    outline: 3px solid #ff0000;
+}
+
+.section4{
+	height: 741px;
+	object-position: top;
+	background-size: 100%;
+	background: no-repeat url("Content/Picture/section4.png");
+	background-position: center;
+	object-fit: fill;
+}
+
+.join{
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 300px;
+}
+
+.button1{
+	
+	color:black;
+	font-family:  outrun future;
+	text-align: center;
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 30px;
+	width: 150;
+	margin-top: 50;
+	margin-left: 70;
+	background: no-repeat url("Content/Picture/Button.png");
+	background-size: 100%;
+	background-position: top;
+	object-fit: fill;
+	object-position: top;
+	margin-left: 650px;
+}
+
+.join{
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 250px;
+}
+.join:hover{
+	animation: ratata 2s linear;
+}
+@keyframes slide{
+	0%{
+		rotate: 0deg;
+	}
+	100%{
+		rotate: 70deg;
+	}
+}
+.join2{
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -255px;
+}
+
+.palitre{
+	outline: 3px solid white;
+	width: 100px;
+	height: 570px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+.block{
+	background-color: red;
+}
+
+
+.rot {
+	animation: 5s linear 0s normal none infinite running rot;
+  }
+  
+.scl {
+	animation: 5s linear 0s normal none infinite running scl;
+}
+
+.card-container {
+	cursor: pointer;
+	height: 150px;
+	perspective: 600;
+	position: relative;
+	width: 150px;
+  }
+  .card {
+	height: 100%;
+	position: absolute;
+	transform-style: preserve-3d;
+	transition: all 1s ease-in-out;
+	width: 100%;
+  }
+  .card:hover {
+	transform: rotateY(180deg);
+  }
+  .card .side {
+	backface-visibility: hidden;
+	border-radius: 6px;
+	border-color: pink;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	width: 100%;
+  }
+  .card .back {
+	background: #eaeaed;
+	color: #0087cc;
+	line-height: 150px;
+	text-align: center;
+	transform: rotateY(180deg);
+  }
+
+@keyframes ratata {
+	0% {
+		transform: rotate(0deg);
+		left: 0;
+	}
+	100% {
+		transform: rotate(360deg);
+		left: 500;
+	}
+}
+  
+@keyframes scala {
+	0% {
+		width: 500;
+	}
+
+	50%{
+		width: 1000;
+	}
+
+	100% {
+		width: 500;
+	}
+  }
